@@ -44,7 +44,6 @@
     #if defined (NDEBUG)
         #define DEBUG_LOG DEBUG_LOGLEVEL_ERROR
     #elif defined (DEBUG)
-        #define DEBUG_LOG DEBUG_LOGLEVEL_DEBUG
         #define DEBUG_LOG 0
     #else
         #define DEBUG_LOG DEBUG_LOGLEVEL_WARN

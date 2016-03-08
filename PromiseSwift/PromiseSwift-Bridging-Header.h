@@ -3,4 +3,4 @@
 //
 
 #import "SimpleService.h"
-#import "SwiftPromise.h"
+#import "RXPromise.h"

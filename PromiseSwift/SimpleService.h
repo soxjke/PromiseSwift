@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SwiftPromise.h"
+#import "RXPromise.h"
 
 @interface SimpleService : NSObject
 
-- (SwiftPromise *)fireSomeRequest;
+- (RXPromise *)fireSomeRequest;
 
 @end

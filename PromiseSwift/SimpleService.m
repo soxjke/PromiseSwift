@@ -10,8 +10,8 @@
 
 @implementation SimpleService
 
-- (SwiftPromise *)fireSomeRequest {
-    SwiftPromise *promise = [SwiftPromise new];
+- (RXPromise *)fireSomeRequest {
+    RXPromise *promise = [RXPromise new];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^() {
         [promise fulfillWithValue:@"Success"];
     });
