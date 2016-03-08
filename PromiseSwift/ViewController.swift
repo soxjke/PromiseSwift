@@ -29,10 +29,11 @@ class ViewController: UIViewController {
     private func fireRequest() {
         let promise : RXPromise = self.service.fireSomeRequest()
         promise.then({(obj: AnyObject!) -> AnyObject! in
-            NSLog("Succeeded with value: \(obj)")
+            let result = obj as! NSString;
+            NSLog("Succeeded with value: \(result)")
             return NSObject();
             },
-            {(err: ErrorType!) -> AnyObject! in
+            {(err: NSError!) -> AnyObject! in
             NSLog("Failed with reason: \(err)")
             return NSObject();
         })
@@ -60,7 +61,7 @@ class ViewController: UIViewController {
             NSLog("Succeeded with value: \(obj)")
             return NSObject();
             },
-            {(err: ErrorType!) -> AnyObject! in
+            {(err: NSError!) -> AnyObject! in
                 NSLog("Failed with reason: \(err)")
                 return NSObject();
         })
