@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RXPromise
 
 public class SwiftService<T>: NSObject {
     public func fireSomeRequest() -> RXPromise {

@@ -3,4 +3,3 @@
 //
 
 #import "SimpleService.h"
-#import "RXPromise.h"

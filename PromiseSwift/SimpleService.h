@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RXPromise.h"
+#import <RXPromise/RXPromise.h>
 
 @interface SimpleService : NSObject
 

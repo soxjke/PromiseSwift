@@ -1,0 +1,19 @@
+PODS:
+  - RXPromise (0.13.1)
+
+DEPENDENCIES:
+  - RXPromise (from `https://github.com/couchdeveloper/RXPromise.git`)
+
+EXTERNAL SOURCES:
+  RXPromise:
+    :git: https://github.com/couchdeveloper/RXPromise.git
+
+CHECKOUT OPTIONS:
+  RXPromise:
+    :commit: d94cb29e395b9079804a8f3797400f3157fdb887
+    :git: https://github.com/couchdeveloper/RXPromise.git
+
+SPEC CHECKSUMS:
+  RXPromise: 1aaff7ad7ac17c7e8dd9ea0169d13ed8df3654d2
+
+COCOAPODS: 0.39.0
